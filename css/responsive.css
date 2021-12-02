@@ -1,0 +1,31 @@
+﻿
+img.responsiv {
+    max-width: 100%;
+}
+
+img.responsiv.logo {
+    max-width: 100%;
+}
+
+    img.responsiv.footer {
+        max-width: 100%;
+        transition: width 2s, height 2s, transform 2s;
+    }
+
+    img.responsiv.footer:hover {
+            transform: rotate(360deg);
+        }
+
+        @media screen and (max-width:500px) {
+            .nav, .aside, .new, .section {
+                width: 100%;
+                height: auto;
+                font-family: Arial;
+            }
+
+            img.responsiv {
+                max-width: 30%;
+            }
+        }
+
+
